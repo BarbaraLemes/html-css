@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width= "600" controls>
+        <source src="midia/3124458976.mp4" type="video/mp4">
+    </video>
+
+    <!--Converter o vídeo original para WEBM, OGV, M4V, além do MP4.-->
+
+    <!--O certo seria adicionar o vídeo em outros formatos também, porque o usuário pode abrir esse site em vários navegadores diferentes-->
+
+    <!--Também pode colocar uma capa para o vídeo através do parametro poster= (se coloca antes de controls)-->
+    
+    <!--Este tipo de hospedagem (com um vídeo muito pesado) deixa o site muito caro para o cliente.-->
+
+    <h1>Exemplo de hospedagem de vídeo de outra plataforma</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/YiTMyu-r_Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--Vídeo incorporado pelo Youtube.-->
+    
+</body>
+</html>

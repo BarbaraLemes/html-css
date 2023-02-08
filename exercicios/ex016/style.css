@@ -1,0 +1,37 @@
+@charset "UTF-8"; /*usa-se para não ter problemas com compatibilidade com caracteres especiais*/
+
+/*height = altura
+width = largura */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #00939C, #004C50);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /*arredondar a borda*/
+    box-shadow: 5px 5px 15px #005357a2; /*sombra que tem 3 paramentros*/
+    width: 600px;
+    padding: 10px; /*acochoamento, acrescenta um espaço pequeno entre a borda e as letras*/
+    margin: auto; /*o conteúdo fica centralizado no meio da tela automático*/
+}
+
+h1{
+    color: #9C3E00;
+    text-align: center; /*alinhmaneto do texto*/
+    text-shadow: 1px 1px 2px #672900aa;
+
+}
+
+h2{
+    color: #0e8a90;
+}
+
+p{
+    text-align: justify;
+}
